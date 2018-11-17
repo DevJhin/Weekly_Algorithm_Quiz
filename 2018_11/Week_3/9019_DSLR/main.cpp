@@ -1,11 +1,13 @@
 #include <iostream>
 #include <queue>
+#include <string>
+
 #define MAX_SIZE 10000
 
 struct Vector2 {
-	int depth=0;
-	int letter=0;
-	int lastLetter = 0;
+	int depth=0;//used for check whether this Vector2 object is visited
+	int letter=0;//integer code to print the 'D, S, L, R' letter at the end, using tetramal
+	int lastLetter = 0;//saves the letter until the next depth check
 };
 
 class ArrayList {
@@ -13,8 +15,8 @@ class ArrayList {
 
 public:
 
-	bool  Push(int _newData, int _newLetter, int _depth) {	
-		if (data[_newData].depth != _depth) {
+	bool Push(int _newData, int _newLetter, int _depth) {
+		if (data[_newData].depth != _depth) {//depth check to prevent multiple queue push
 			data[_newData].depth = _depth;
 			data[_newData].lastLetter = data[_newData].letter;
 			data[_newData].letter = _newLetter;
@@ -26,13 +28,12 @@ public:
 			return false;
 		}
 	}
-	
+
 	Vector2 GetData(int index) {
 		return data[index];
 	}
 
 	void Refresh() {
-
 		data[0].depth = 0;
 		data[0].letter = 0;
 	}
@@ -52,12 +53,15 @@ int main() {
 
 	for (int i = 0; i < time; i++) {
 		ArrayList list;
-		int value = 0;
 		scanf("%d %d",&start,&target);
-		queue.push(start);
-		bool flag = false;
 
+		queue.push(start);	//Push the initial data
+
+		bool flag = false;	//has found answer
+
+  	int value = 0;
 		int depth=0;
+
 		while (!flag) {
 			depth++;
 			int length = queue.size();
@@ -65,8 +69,8 @@ int main() {
 				value = queue.front();
 				Vector2 temp = list.GetData(value);
 				int letter = temp.letter;
-	
-				if (temp.depth == depth) {
+
+				if (temp.depth == depth) {	//if current Vector2 is already visited in same depth, use lastLetter as letter value instead
 					letter = temp.lastLetter;
 				}
 				if (value != 0) {
@@ -96,15 +100,19 @@ int main() {
 			}
 		}
 
-		char message [30];
+		//parse the letter integer to tetramal to print the result message
+		int message [30];
 		int temp = list.GetData(target).letter;
-		
+		//std::cout << depth << " " <<temp<< " ";
 		for (int i = 0; i < depth; i++) {
-			message[depth - i - 1] = PrintLetter(temp % 4);
+			message[depth - i - 1] = temp % 4;
 			temp /= 4;
 		}
-		message[depth]='\0';
-		printf("%s",message);
+		std::string str("");
+		for (int i = 0; i < depth; i++) {
+		str+= PrintLetter(message[i]);
+		}
+		std::cout <<str <<"\n";
 		while (!queue.empty()) {
 			queue.pop();
 		}
@@ -129,7 +137,7 @@ char PrintLetter(int index) {
 	}
 	}
 }
-
+//doubles the
 bool Double(int _value, int letter, int depth,ArrayList& list) {
 	int value = 2*_value;
 	if (value >= 10000) value -= 10000;

@@ -2,18 +2,19 @@
 #include <iostream>
 
 int main() {
-	Deque* deque = new Deque();	//Deque is defined in Deque.h and Deque.cpp
+	Deque* deque = new Deque();	//Custom Deque
 
 	int orderCnt;
+
 	std::cin >> orderCnt;
 
 	for (int i = 0; i < orderCnt; i++) {
-		char orderName[20];	//Saves the name of order
-		scanf("%s", orderName);
+		char orderName[20];
+		scanf("%s", orderName);	//Get the name of order from console
 
 		Deque::OrderType orderType = Deque::ConvertToOrder(orderName); //Convert string to enum type
 
-		switch (orderType) {
+		switch (orderType) {	//Uses enum type to use Switch statement
 		case Deque::Push_Back: {
 			int data;
 			scanf("%d", &data);

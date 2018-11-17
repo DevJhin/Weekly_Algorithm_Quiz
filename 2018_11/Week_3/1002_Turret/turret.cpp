@@ -1,7 +1,7 @@
 #include<iostream>
 #define Square(num)((num) * (num))
 #define Print(rlt)std::cout <<rlt<<"\n";
-//시도 횟수 0회
+//占시듸옙 횟占쏙옙 0회
 int main() {
 	int T;
 	std::cin >> T;
@@ -15,28 +15,27 @@ int main() {
 		int diameter_Sum = Square(r_1 + r_2);
 		int diameter_Diff = Square(r_1 - r_2);
 
-		if (distance > diameter_Sum) { // 중심 간 거리가 두 원의 반지름 합 보다 크면 교점이 0개
+		if (distance > diameter_Sum) { // if distance between center is bigger than the sum of diamter, no intersect exists
 			Print(0);
 		}
-		else if (distance == diameter_Sum) {
-			Print(1);// 중심 간 거리가 두 원의 반지름 합과 같으면 교점이 1개.
+		else if (distance == diameter_Sum) {// if distance between center is equal to the sum of diamter, one intersect exists
+			Print(1);
 		}
 		else {
 
-			if (distance > diameter_Diff) { //중심 간 거리가 두 원의 반지름 차이보다 크면 교점은 2개
+			if (distance > diameter_Diff) { // if distance between center is bigger than the diff of diamter, two intersect exists
 				Print(2);
 			}
 			else if (distance == diameter_Diff) {
-				if (distance == 0){//중심 간 거리와 두 원의 반지름 차이와 0으로 같으면(원이 일치) 교점은 무한대
+				if (distance == 0){ // if the two circles are indentical, infinite intersect exists
 					Print(-1);
 				}
-				else {//중심 간 거리가 두 원의 반지름 차이와 같으면 교점은 1개
+				else { 	// if distance between center is equal to the diff of diamter(but the cirles are not identical), one intersect exists
 					Print(1);
 				}
 
 			}
-			else {//중심 간 거리가 두 원의 반지름 차이보다 작으면 교점은 0개
-
+			else {// if distance between center is smaller than the diff of diamter, no intersect exists
 				Print(0);
 			}
 		}
