@@ -30,20 +30,25 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   [[Quiz]](https://www.acmicpc.net/problem/10866) [[Code]](2018_11/Week_3/10866_Deque) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-2)  
 
   * **7576. Tomato**
-  [[Quiz]](https://www.acmicpc.net/problem/7576) [[Code]](2018_11/Week_3/7576_Tomato/main.cpp) ![[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-3)
+  [[Quiz]](https://www.acmicpc.net/problem/7576) [[Code]](2018_11/Week_3/7576_Tomato/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-3)
 
   * **9019. DSLR**
-  [[Quiz]](https://www.acmicpc.net/problem/9019) [[Code]](2018_11/Week_3/9019_DSLR/main.cpp) ![[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-4)
+  [[Quiz]](https://www.acmicpc.net/problem/9019) [[Code]](2018_11/Week_3/9019_DSLR/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-4)
 
   * **14891. Gears**
-  [[Quiz]](https://www.acmicpc.net/problem/14891) [[Code]](2018_11/Week_3/14891_Gears) ![[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-5)
+  [[Quiz]](https://www.acmicpc.net/problem/14891) [[Code]](2018_11/Week_3/14891_Gears) [Review]
 
   #### Week 4 (Day 18 - Day 26)
   * **10451. Permutation Cycles**
-  [[Quiz]](https://www.acmicpc.net/problem/10451) [[Code]](2018_11/Week_4/10451_Permutation_Cycles/main.cpp) ![[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-4#quiz-1)
-
+  [[Quiz]](https://www.acmicpc.net/problem/10451) [[Code]](2018_11/Week_4/10451_Permutation_Cycles/main.cpp) [Review]
+  
 ## _Unsolved / Delayed_
-  *  _NULL_
+
+* ### 2018.11
+
+  #### Week 4 (Day 18 - Day 26)
+  * **1220. MEGACITY**
+  [[Quiz]](https://www.acmicpc.net/problem/1220)
 
 ## Reference & Resources
 * [Baekjoon Online Judge](https://www.acmicpc.net/)
