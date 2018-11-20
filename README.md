@@ -36,11 +36,11 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   [[Quiz]](https://www.acmicpc.net/problem/9019) [[Code]](2018_11/Week_3/9019_DSLR/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-4)
 
   * **14891. Gears**
-  [[Quiz]](https://www.acmicpc.net/problem/14891) [[Code]](2018_11/Week_3/14891_Gears) [Review]
+  [[Quiz]](https://www.acmicpc.net/problem/14891) [[Code]](2018_11/Week_3/14891_Gears) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-5)
 
   #### Week 4 (Day 18 - Day 26)
   * **10451. Permutation Cycles**
-  [[Quiz]](https://www.acmicpc.net/problem/10451) [[Code]](2018_11/Week_4/10451_Permutation_Cycles/main.cpp) [Review]
+  [[Quiz]](https://www.acmicpc.net/problem/10451) [[Code]](2018_11/Week_4/10451_Permutation_Cycles/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-4#quiz-1)
   
 ## _Unsolved / Delayed_
 
@@ -49,6 +49,8 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   #### Week 4 (Day 18 - Day 26)
   * **1220. MEGACITY**
   [[Quiz]](https://www.acmicpc.net/problem/1220)
+    * Implement protity queue using heap - _Working_
+    * Implement A* algorithm - _Working_
 
 ## Reference & Resources
 * [Baekjoon Online Judge](https://www.acmicpc.net/)
