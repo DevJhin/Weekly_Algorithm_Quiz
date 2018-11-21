@@ -45,6 +45,9 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
    * **1074. Z**
   [[Quiz]](https://www.acmicpc.net/problem/1074) [[Code]](2018_11/Week_4/1074_Z/main.cpp) [Review]
   
+   * **10815. Number Card**
+  [[Quiz]](https://www.acmicpc.net/problem/10815) [[Code]](2018_11/Week_4/10815_Number_Card) [Review]
+  
 ## _Unsolved / Delayed_
 
 * ### 2018.11
