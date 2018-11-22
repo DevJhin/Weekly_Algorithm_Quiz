@@ -5,8 +5,8 @@
 
 #define _MAX_SIZE 500050
 
-int cardData[_MAX_SIZE];
-int testData[_MAX_SIZE];
+int cardData[_MAX_SIZE];	//Data for testData being searched
+int testData[_MAX_SIZE];	//Data to search in cardData
 
 int main() {
 	int cardNum;
@@ -29,4 +29,3 @@ int main() {
 		printf("%d ", BinarySearch::Contains(testData[i], cardData, cardNum));
 	}
 }
- 
