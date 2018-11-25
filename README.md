@@ -43,7 +43,7 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   [[Quiz]](https://www.acmicpc.net/problem/10451) [[Code]](2018_11/Week_4/10451_Permutation_Cycles/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-4#quiz-1)
   
    * **1074. Z**
-  [[Quiz]](https://www.acmicpc.net/problem/1074) [[Code]](2018_11/Week_4/1074_Z/main.cpp) [Review]
+  [[Quiz]](https://www.acmicpc.net/problem/1074) [[Code]](2018_11/Week_4/1074_Z/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-4#quiz-2)
   
    * **10815. Number Card**
   [[Quiz]](https://www.acmicpc.net/problem/10815) [[Code]](2018_11/Week_4/10815_Number_Card) [Review]
