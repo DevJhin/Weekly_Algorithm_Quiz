@@ -38,8 +38,8 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   * **14891. Gears**
   [[Quiz]](https://www.acmicpc.net/problem/14891) [[Code]](2018_11/Week_3/14891_Gears) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-3#quiz-5)
 
-  #### Week 4 (Day 18 - Day 26)
-  * **10451. Permutation Cycles**
+  #### Week 4 (Day 18 - Day 24)
+   * **10451. Permutation Cycles**
   [[Quiz]](https://www.acmicpc.net/problem/10451) [[Code]](2018_11/Week_4/10451_Permutation_Cycles/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-4#quiz-1)
   
    * **1074. Z**
@@ -51,11 +51,14 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
    * **10816. Number Card 2**
   [[Quiz]](https://www.acmicpc.net/problem/10816) [[Code]](2018_11/Week_4/10816_Number_Card_2) [Review]
   
+  #### Week 5 (Day 25 - Day 1)
+  * **10872. Factorial**
+  [[Quiz]](https://www.acmicpc.net/problem/10872) [[Code]](2018_11/Week_5/10872_Factorial/main.cpp) [Review]
 ## _Unsolved / Delayed_
 
 * ### 2018.11
 
-  #### Week 4 (Day 18 - Day 26)
+  #### Week 4 (Day 18 - Day 24)
   * **1220. MEGACITY**
   [[Quiz]](https://www.acmicpc.net/problem/1220)
     * Implement protity queue using heap - _Working_
