@@ -54,6 +54,9 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   #### Week 5 (Day 25 - Day 1)
   * **10872. Factorial**
   [[Quiz]](https://www.acmicpc.net/problem/10872) [[Code]](2018_11/Week_5/10872_Factorial/main.cpp) [Review]
+  
+  * **11050. Binomial Coefficient 1**
+  [[Quiz]](https://www.acmicpc.net/problem/11050) [[Code]](2018_11/Week_5/11050_Binomial_Coefficient_1/main.cpp) [Review]
 ## _Unsolved / Delayed_
 
 * ### 2018.11
