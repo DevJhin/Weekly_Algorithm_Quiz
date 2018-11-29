@@ -61,6 +61,9 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
    * **11051. Binomial Coefficient 2**
   [[Quiz]](https://www.acmicpc.net/problem/11051) [[Code]](2018_11/Week_5/11051_Binomial_Coefficient_2/main.cpp) [Review]
   
+  * **KB1701. Dart Game**
+  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17682) [[Code]](2018_11/Week_5/KB1701_Dart_Game/main.cpp) [Review]
+  
 ## _Unsolved / Delayed_
 
 * ### 2018.11
