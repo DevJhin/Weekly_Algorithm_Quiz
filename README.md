@@ -64,6 +64,9 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   * **KB1701. Dart Game**
   [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17682) [[Code]](2018_11/Week_5/KB1701_Dart_Game/main.cpp) [Review]
   
+  * **KB1702. Secret Map**
+  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17681) [[Code]](2018_11/Week_5/KB1702_Secret_Map/main.cpp) [Review]
+  
 ## _Unsolved / Delayed_
 
 * ### 2018.11
