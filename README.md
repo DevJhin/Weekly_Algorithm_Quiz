@@ -67,6 +67,13 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   * **KB1702. Secret Map**
   [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17681) [[Code]](2018_11/Week_5/KB1702_Secret_Map/main.cpp) [Review]
   
+* ### 2018.11
+
+  #### Week 1 (Day 2 - Day 8)
+  * **KB1703. Cache**
+  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17680) [[Code]](2018_12/Week_1/KB_1703_Cache/main.cpp) [Review]  
+
+  
 ## _Unsolved / Delayed_
 
 * ### 2018.11
