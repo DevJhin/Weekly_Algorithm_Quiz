@@ -53,16 +53,17 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   
   #### Week 5 (Day 25 - Day 1)
   * **10872. Factorial**
-  [[Quiz]](https://www.acmicpc.net/problem/10872) [[Code]](2018_11/Week_5/10872_Factorial/main.cpp) [Review]
+  [[Quiz]](https://www.acmicpc.net/problem/10872) [[Code]](2018_11/Week_5/10872_Factorial/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-5#quiz-1)
   
   * **11050. Binomial Coefficient 1**
-  [[Quiz]](https://www.acmicpc.net/problem/11050) [[Code]](2018_11/Week_5/11050_Binomial_Coefficient_1/main.cpp) [Review]
+  [[Quiz]](https://www.acmicpc.net/problem/11050) [[Code]](2018_11/Week_5/11050_Binomial_Coefficient_1/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-5#quiz-2)
   
    * **11051. Binomial Coefficient 2**
   [[Quiz]](https://www.acmicpc.net/problem/11051) [[Code]](2018_11/Week_5/11051_Binomial_Coefficient_2/main.cpp) [Review]
   
   * **KB1701. Dart Game**
-  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17682) [[Code]](2018_11/Week_5/KB1701_Dart_Game/main.cpp) [Review]
+  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17682) [[Code]](2018_11/Week_5/KB1701_Dart_Game/main.cpp) [[Review]](https://github.com/Jhin-Husshuck/Weekly_Algorithm_Quiz/wiki/2018-11-5#quiz-4)
+  
   
   * **KB1702. Secret Map**
   [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17681) [[Code]](2018_11/Week_5/KB1702_Secret_Map/main.cpp) [Review]
