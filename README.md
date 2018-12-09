@@ -68,13 +68,14 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   * **KB1702. Secret Map**
   [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17681) [[Code]](2018_11/Week_5/KB1702_Secret_Map/main.cpp) [Review]
   
-* ### 2018.11
+* ### 2018.12
 
   #### Week 1 (Day 2 - Day 8)
   * **KB1703. Cache**
   [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17680) [[Code]](2018_12/Week_1/KB_1703_Cache/main.cpp) [Review]  
-  * Notification: Quiz project will be substitued to Texas Holdem Game Algorithm project until Day 14
   
+  #### Week 2 (Day 9 - Day 15)
+  ###  Notification: Quiz project will be substitued to Texas Holdem Game Algorithm project until Day 15
 ## _Unsolved / Delayed_
 
 * ### 2018.11
