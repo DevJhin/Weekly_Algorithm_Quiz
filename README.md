@@ -76,6 +76,11 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   
   #### Week 2 (Day 9 - Day 15)
   ###  Notification: Quiz project will be substitued to Texas Holdem Game Algorithm project until Day 15
+  
+  #### Week 3 (Day 16 - Day 22)
+  * **KB1705. Shuttle Bus**
+  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17678) [[Code]](2018_12/Week_3/KB1705_Shuttle_Bus/main.cpp) [Review]  
+  
 ## _Unsolved / Delayed_
 
 * ### 2018.11
