@@ -80,6 +80,8 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   #### Week 3 (Day 16 - Day 22)
   * **KB1705. Shuttle Bus**
   [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17678) [[Code]](2018_12/Week_3/KB1705_Shuttle_Bus/main.cpp) [Review]  
+  * **KB1706. News Clustering**
+  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17677) [[Code]](2018_12/Week_3/KB1706_News_Clustering/main.cpp) [Review]  
   
 ## _Unsolved / Delayed_
 
