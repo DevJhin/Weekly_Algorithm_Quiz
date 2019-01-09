@@ -1,129 +1,139 @@
 #include <string>
 #include <vector>
+#include <list>
+#include <queue>
 
 using namespace std;
 
-enum BlockType { Rion, Muzi, Apeach, Frodo, Neo, Tube, Jay_G, Con };
+struct Block
+{
+public:
+	char type;
+	bool isChecked = false;
+	Block(char type) :type(type)
+	{
 
-struct Block {
-	BlockType type;
-
-	Block (char capital) {
-		switch (capital) {
-		case 'R':
-		{
-			type = Rion;
-			break;
-		}
-		case 'M':
-		{
-			type = Muzi;
-			break;
-		}
-		case 'A':
-		{
-			type = Apeach;
-			break;
-		}
-		case 'F':
-		{
-			type = Frodo;
-			break;
-		}
-		case 'N':
-		{
-			type = Neo;
-			break;
-		}
-		case 'T':
-		{
-			type = Tube;
-			break;
-		}
-		case 'J':
-		{
-			type = Jay_G;
-			break;
-		}
-		case 'C':
-		{
-			type = Con;
-			break;
-		}
-		default: {
-			//Error: Not Defined Character
-			break;
-		}
-		}
 	}
 
 };
 
-class BoardManager {
+
+class Board
+{
 private:
-	vector<Block> * board;
-	
-	int height;
-	int width;
+	vector<Block> * blocks;
+
+	int maxHeight;
+	int maxWidth;
+
+	list<int>* popPositions;
+
 
 public:
-	BoardManager(int height, int width) {
+	Board(int height, int width)
+	{
 
-		this->height = height;
-		this->width = width; 
+		this->maxHeight = height;
+		this->maxWidth = width;
 
-		for (int i = 0; i < width; i++) {
-			board = new vector<Block>[width];
-		}
+		blocks = new vector<Block>[width];
 
 	}
-	void FillLine(string value) {
+
+	void AddBlocks(string value)
+	{
 		const char* capitals = value.c_str();
-		for (int i = 0; i < width; i++) 
+		for (int i = 0; i < maxWidth; i++)
 		{
-			if (board[i].size() < height)
+			blocks[i].push_back(Block(capitals[i]));
+		}
+	}
+
+	int CheckFourBlocks()
+	{
+		popPositions = new list<int>[maxWidth];
+		int depth = 0;
+		for (int j = 0; j < maxHeight - 1; j++)
+		{
+			for (int i = 0; i < maxWidth - 1; i++)
 			{
-				board[i].push_back(Block(capitals[i]));
+				int leftHeight = blocks[i].size();
+				int rightHeight = blocks[i + 1].size();
+				int height = leftHeight < rightHeight ? leftHeight : rightHeight;
+
+				if (height <= j + 1)
+				{
+					continue;
+				}
+				if (blocks[i][j].type == blocks[i][j + 1].type&&blocks[i + 1][j].type == blocks[i + 1][j + 1].type&&blocks[i][j].type == blocks[i + 1][j].type)
+				{
+					depth++;
+					if (blocks[i][j].isChecked == false)
+					{
+						popPositions[i].push_back(j);
+						blocks[i][j].isChecked = true;
+					}
+					if (blocks[i][j + 1].isChecked == false)
+					{
+						popPositions[i].push_back(j + 1);
+						blocks[i][j + 1].isChecked = true;
+					}
+					if (blocks[i + 1][j].isChecked == false)
+					{
+						popPositions[i + 1].push_back(j);
+						blocks[i + 1][j].isChecked = true;
+					}
+					if (blocks[i + 1][j + 1].isChecked == false)
+					{
+						popPositions[i + 1].push_back(j + 1);
+						blocks[i + 1][j + 1].isChecked = true;
+					}
+				}
+			}
+		}
+		int popBlockCount = 0;
+
+		for (int i = 0; i < maxWidth; i++)
+		{
+			popBlockCount += popPositions[i].size();
+		}
+
+
+		return popBlockCount;
+	}
+
+	void PopFourBlocks()
+	{
+		for (int i = 0; i < maxWidth; i++)
+		{
+			int shifted = 0;
+			while (!popPositions[i].empty())
+			{
+				int col = popPositions[i].front();
+				blocks[i].erase(blocks[i].begin() + col - shifted);
+				shifted++;
+
+				popPositions[i].pop_front();
 			}
 		}
 	}
-	
-
-	int Pang() {
-		for (int i = 0; i < width-1; i++)
-		{
-			int maxHeight = board[i].size() < board[i + 1].size() ? board[i].size() : board[i+1].size();
-			for (int j = 0; j < maxHeight - 1; j++)
-			{
-				if (board[i][j].type == board[i][j + 1].type && board[i][j+1].type == board[i+1][j + 1].type) 
-				{
-
-				}
-				if (board[i + 1][j].type == board[i + 1][j + 1].type) 
-				{
-				
-				}
-			}
-		}
-
-	}
-
 };
 
-int solution(int m, int n, vector<string> board) {
+int solution(int m, int n, vector<string> boardData)
+{
 	int answer = 0;
-	BoardManager boardManager(m,n);
+	Board board(m, n);
 
-	for (int i = board.size() - 1; i >= 0; i--) {
-		boardManager.FillLine(board[i]);
+	for (int i = boardData.size() - 1; i >= 0; i--)
+	{
+		board.AddBlocks(boardData[i]);
 	}
-
-	int pangBlockCnt = 0;
-
-	do {
-		pangBlockCnt = boardManager.Pang();
-		answer += pangBlockCnt;
-	} while (!(pangBlockCnt == 0));
+	int popCount;
+	while ((popCount = board.CheckFourBlocks()) > 0)
+	{
+		answer += popCount;
+		board.PopFourBlocks();
+	}
 
 	return answer;
 }
