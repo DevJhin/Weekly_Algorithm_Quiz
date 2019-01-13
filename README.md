@@ -87,6 +87,9 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   * **KB1709. File Name Sort**
   [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17686) [[Code]](2018_12/Week_3/KB1709_File_Name_Sort/main.cpp) [Review]  
   
+  #### Week 4 (Day 23 - Day 29)
+  * **KB1802. Failure Rate**
+  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/42889) [[Code]](2018_12/Week_4/KB1802_Failure_Rate/main.cpp) [Review]  
 ## _Unsolved / Delayed_
 
 * ### 2018.11
