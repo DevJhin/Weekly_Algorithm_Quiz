@@ -77,6 +77,9 @@ Weekly Algorithm Quiz Project is a private project conducted by Jhin-Husshuck, f
   [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/17679) [[Code]](2018_12/Week_1/KB1704_Friends_4_Block/main.cpp) [Review]  
   * **6603. Lotto**
   [[Quiz]](https://www.acmicpc.net/problem/6603) [[Code]](2018_12/Week_1/6603_Lotto/main.cpp) [Review]
+  
+  * **PG42577. Phone Number List**
+  [[Quiz]](https://programmers.co.kr/learn/courses/30/lessons/42577) [[Code]](2018_12/Week_1/PG42577_Phone_Number_List/main.cpp) [Review]
   #### Week 2 (Day 9 - Day 15)
   ###  Notification: Quiz project will be substitued to Texas Holdem Game Algorithm project until Day 15
   
